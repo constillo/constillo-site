@@ -1,0 +1,96 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "constillo-site",
+  "serviceId": "constillo",
+  "origin": "https://constillo.com",
+  "audienceScope": "global",
+  "defaultLocale": "en",
+  "fallbackLocale": "ja",
+  "prefixDefaultLocale": false,
+  "locales": ["ja", "en"],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "Constillo",
+      "tagline": "決定論的な計画と検証を実行から分離する軽量Rustワークフロー",
+      "summary": "Constilloは版付き入力から決定論的な計画と検証記録を生成する独立Rustワークフローエンジンです。軽量性と安全性を優先し、資格情報、Provider実装、外部サービス実行を内部へ抱え込みません。",
+      "features": [
+        {"id": "deterministic-plan", "title": "決定論的な計画", "summary": "同じ版付き入力とPolicyから、比較可能な計画とdigestを生成します。"},
+        {"id": "workflow-contract", "title": "独立した契約", "summary": "入力、Task、承認、結果をSchemaで閉じ、他製品のソースへ直接依存しません。"},
+        {"id": "execution-handoff", "title": "明示的な実行引き継ぎ", "summary": "承認済み計画だけを外部Executorへ渡し、結果を検証可能なReceiptとして受け取ります。"}
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Constilloの概要",
+          "summary": "Workflow定義、計画、実行の責務分離を説明します。",
+          "sections": [
+            {"id": "engine-boundary", "title": "計画・検証エンジン", "body": ["ConstilloはWorkflow定義を読み、Task、依存、承認、入出力を検証して実行計画を生成します。Provider固有の認証や操作はEngineの責務に含めません。"]},
+            {"id": "independent-operation", "title": "単独で利用できる", "body": ["他のエコシステム製品を導入しなくても、版付きJSON契約を介して検証と計画を行えます。TPAR、Zixcel、vPremisesとは必要な場合だけInterfaceで連携します。"]}
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Workflowを検証する",
+          "summary": "外部実行を伴わずに定義と計画を確認する手順です。",
+          "sections": [
+            {"id": "prepare-input", "title": "版付き入力を準備する", "body": ["対応Schema、Workflow ID、Task、依存、担当、承認条件、許可する出力を定めます。秘密値ではなく、実行時に解決する参照だけを入力します。"]},
+            {"id": "inspect-plan", "title": "計画を検査する", "body": ["計画の順序、対象、失敗条件、承認待ち、digestを確認します。実行を委譲する場合は、承認された版と許可範囲が一致することを確認します。"]}
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Workflowの安全境界",
+          "summary": "軽量な検証Coreを外部権限から隔離する原則です。",
+          "sections": [
+            {"id": "closed-input", "title": "閉じた入力契約", "body": ["未知field、過大入力、循環依存、未定義Task、埋め込み資格情報を拒否します。Workflow定義には顧客データの原文ではなく、分類された参照を使います。"]},
+            {"id": "no-provider-access", "title": "Providerへ直接接続しない", "body": ["このサイトと計画Coreはネットワークアクセス、認証、通知、ファイル変更を行いません。実行は別プロセスへ委譲し、Receiptを新しい入力として検証します。"]}
+          ]
+        }
+      },
+      "privacy": {"label": "プライバシー", "summary": "公開サイトはWorkflow実行履歴、顧客データ、資格情報を収集しません。Workflow入力は目的に必要な最小情報と参照に限定し、保持方針を実行環境で定めます。"},
+      "contact": {"label": "Constilloに関する連絡", "summary": "契約や検証の問題は、constillo.comで確認済みとして案内される窓口へSchema版、最小化した入力例、期待結果だけを送ってください。秘密値を含めないでください。"}
+    },
+    "en": {
+      "brand": "Constillo",
+      "tagline": "A lightweight Rust workflow that separates deterministic planning and validation from execution",
+      "summary": "Constillo is an independent Rust workflow engine that produces deterministic plans and validation records from versioned input. It prioritizes low overhead and security and does not embed credentials, provider implementations, or external-service execution.",
+      "features": [
+        {"id": "deterministic-plan", "title": "Deterministic planning", "summary": "Produces comparable plans and digests from the same versioned input and policy."},
+        {"id": "workflow-contract", "title": "Independent contract", "summary": "Closes input, tasks, approvals, and results with schemas and no direct dependency on another product's source."},
+        {"id": "execution-handoff", "title": "Explicit execution handoff", "summary": "Hands only an approved plan to an external executor and accepts a verifiable receipt as the result."}
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Constillo overview",
+          "summary": "Explains the separation of workflow definition, planning, and execution.",
+          "sections": [
+            {"id": "engine-boundary", "title": "Planning and validation engine", "body": ["Constillo reads a workflow definition, validates tasks, dependencies, approvals, inputs, and outputs, and produces an execution plan. Provider authentication and actions are outside the engine boundary."]},
+            {"id": "independent-operation", "title": "Usable independently", "body": ["Validation and planning work through versioned JSON contracts without installing other ecosystem products. TPAR, Zixcel, and vPremises integrate only where an interface is needed."]}
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Validate a workflow",
+          "summary": "A sequence for reviewing a definition and plan without external execution.",
+          "sections": [
+            {"id": "prepare-input", "title": "Prepare versioned input", "body": ["Specify the supported schema, workflow ID, tasks, dependencies, owners, approval conditions, and permitted outputs. Include references resolved at execution time rather than secrets."]},
+            {"id": "inspect-plan", "title": "Inspect the plan", "body": ["Review order, targets, failure conditions, approval waits, and digest. For delegated execution, confirm that the approved version and permitted scope match."]}
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Workflow security boundary",
+          "summary": "Principles that isolate a lightweight validation core from external authority.",
+          "sections": [
+            {"id": "closed-input", "title": "Closed input contracts", "body": ["Reject unknown fields, oversized input, dependency cycles, undefined tasks, and embedded credentials. Use classified references rather than raw customer data in workflow definitions."]},
+            {"id": "no-provider-access", "title": "No direct provider access", "body": ["This site and planning core do not access networks, authenticate, send notifications, or change files. Execution is delegated to another process and its receipt is validated as new input."]}
+          ]
+        }
+      },
+      "privacy": {"label": "Privacy", "summary": "The public site collects no workflow history, customer data, or credentials. Workflow input should contain only necessary information and references, with retention defined in the execution environment."},
+      "contact": {"label": "Constillo contact", "summary": "Report contract or validation problems through a verified channel identified on constillo.com, sending only the schema version, a minimized input example, and expected result. Exclude secrets."}
+    }
+  }
+}

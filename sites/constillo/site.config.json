@@ -54,6 +54,13 @@
               "body": [
                 "他のエコシステム製品を導入しなくても、版付きJSON契約を介して検証と計画を行えます。TPAR、Zixcel、vPremisesとは必要な場合だけInterfaceで連携します。"
               ]
+            },
+            {
+              "id": "page-feedback",
+              "title": "ページから改善へ",
+              "body": [
+                "対象ページ、目的、期待する挙動、package版と公開できる再現手順をownerへ共有してください。配置の調整は実際の利用とフィードバックから行います。秘密鍵、token、実顧客データは送らないでください。"
+              ]
             }
           ]
         },
@@ -149,6 +156,13 @@
               "title": "Usable independently",
               "body": [
                 "Validation and planning work through versioned JSON contracts without installing other ecosystem products. TPAR, Zixcel, and vPremises integrate only where an interface is needed."
+              ]
+            },
+            {
+              "id": "page-feedback",
+              "title": "From page to feedback",
+              "body": [
+                "Share the page, purpose, expected behavior, package version and public reproduction steps with the owner. Refine placement using actual usage and feedback. Do not share tokens, keys or customer data."
               ]
             }
           ]

@@ -1,0 +1,39 @@
+{
+  "schema": "nuxtjp://showcase/v1",
+  "owner": "constillo",
+  "observedAt": "2026-10-13T04:06:00Z",
+  "entries": [
+    {
+      "id": "constillo-constillo",
+      "kind": "oss",
+      "name": {
+        "ja": "constillo",
+        "en": "constillo"
+      },
+      "summary": {
+        "ja": "constillo/constillo の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Check whether a workflow is valid and turn it into a repeatable execution plan before handing it to an executor."
+      },
+      "repository": "https://github.com/constillo/constillo",
+      "homepage": "https://github.com/constillo/constillo",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "constillo-constillo-site",
+      "kind": "oss",
+      "name": {
+        "ja": "constillo-site",
+        "en": "constillo-site"
+      },
+      "summary": {
+        "ja": "constillo/constillo-site の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Explain how to adopt and validate reproducible workflow plans."
+      },
+      "repository": "https://github.com/constillo/constillo-site",
+      "homepage": "https://github.com/constillo/constillo-site",
+      "license": "Apache-2.0",
+      "metrics": []
+    }
+  ]
+}

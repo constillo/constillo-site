@@ -15,7 +15,7 @@
   "content": {
     "ja": {
       "brand": "Constillo",
-      "tagline": "決定論的な計画と検証を実行から分離する軽量Rustワークフロー",
+      "tagline": "実行の前に、計画をかたちに。",
       "summary": "Constilloは版付き入力から決定論的な計画と検証記録を生成する独立Rustワークフローエンジンです。軽量性と安全性を優先し、資格情報、Provider実装、外部サービス実行を内部へ抱え込みません。",
       "features": [
         {
@@ -118,7 +118,7 @@
     },
     "en": {
       "brand": "Constillo",
-      "tagline": "A lightweight Rust workflow that separates deterministic planning and validation from execution",
+      "tagline": "Shape a plan before execution.",
       "summary": "Constillo is an independent Rust workflow engine that produces deterministic plans and validation records from versioned input. It prioritizes low overhead and security and does not embed credentials, provider implementations, or external-service execution.",
       "features": [
         {

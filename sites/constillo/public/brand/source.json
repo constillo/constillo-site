@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "site": "constillo",
+  "source_file": "exec-99389994-3a18-4a5b-ada0-3e8c9e26e52d.png",
+  "sha256": "28f05c77bead24f7e5d91c1ad3ccd802b70c8b023ea6c5d2ebd0aafad78d622d",
+  "artwork": "User-provided generated artwork, copied without alteration",
+  "theme": {
+    "accent": "#6435c9",
+    "paper": "#faf8ff",
+    "ink": "#102d46"
+  }
+}

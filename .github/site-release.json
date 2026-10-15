@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "constillo/constillo-site",
+  "defaultBranch": "main",
+  "requiredWorkflows": [
+    "site.yml"
+  ],
+  "sites": [
+    {
+      "id": "constillo",
+      "version": "0.1.0",
+      "account": "0655772369a7b3425e3398313a36521b",
+      "worker": "constillo-site",
+      "domain": "constillo.com",
+      "origin": "https://constillo.com",
+      "environment": "site-production-constillo",
+      "siteConfig": "sites/constillo/site.config.json",
+      "appDirectory": ".",
+      "assetDirectory": ".output/constillo/public",
+      "buildKind": "organization",
+      "zone": "ab49680985a75d3de208d825fa8f91e4"
+    }
+  ]
+}

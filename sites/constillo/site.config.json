@@ -52,7 +52,7 @@
               "id": "independent-operation",
               "title": "単独で利用できる",
               "body": [
-                "他のエコシステム製品を導入しなくても、版付きJSON契約を介して検証と計画を行えます。TPAR、Zixcel、vPremisesとは必要な場合だけInterfaceで連携します。"
+                "他製品を導入せずに、版付きJSON契約を介して検証と計画を行えます。外部サービスの認証と実行は利用側が管理します。"
               ]
             },
             {
@@ -66,9 +66,16 @@
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "Workflowを検証する",
-          "summary": "外部実行を伴わずに定義と計画を確認する手順です。",
+          "title": "利用開始と配布状況",
+          "summary": "公開ソースで定義の検証と計画を試せます。一般向けバイナリのダウンロードは準備中です。",
           "sections": [
+            {
+              "id": "availability",
+              "title": "利用開始と配布状況",
+              "body": [
+                "https://github.com/constillo/constillo のREADMEとExamplesから始めてください。Rust環境で cargo test --locked を実行し、計画と検証結果を確認できます。現在、安定版バイナリのGitHub Releaseはありません。"
+              ]
+            },
             {
               "id": "prepare-input",
               "title": "版付き入力を準備する",
@@ -155,7 +162,7 @@
               "id": "independent-operation",
               "title": "Usable independently",
               "body": [
-                "Validation and planning work through versioned JSON contracts without installing other ecosystem products. TPAR, Zixcel, and vPremises integrate only where an interface is needed."
+                "Validate and plan through versioned JSON contracts without installing other products. The consuming application owns external-service authentication and execution."
               ]
             },
             {
@@ -169,9 +176,16 @@
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "Validate a workflow",
-          "summary": "A sequence for reviewing a definition and plan without external execution.",
+          "title": "Getting started and availability",
+          "summary": "Try validation and planning from the public source. General-purpose binary downloads are not yet available.",
           "sections": [
+            {
+              "id": "availability",
+              "title": "Getting started and availability",
+              "body": [
+                "Start with the README and examples at https://github.com/constillo/constillo. In a Rust environment, run cargo test --locked to inspect plans and validation results. No stable binary GitHub Release is currently available."
+              ]
+            },
             {
               "id": "prepare-input",
               "title": "Prepare versioned input",

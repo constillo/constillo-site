@@ -17,7 +17,8 @@
       "siteConfig": "sites/constillo/site.config.json",
       "appDirectory": ".",
       "assetDirectory": ".output/constillo/public",
-      "buildKind": "organization"
+      "buildKind": "organization",
+      "zone": "ab49680985a75d3de208d825fa8f91e4"
     }
   ]
 }

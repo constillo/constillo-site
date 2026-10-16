@@ -25,10 +25,6 @@
         {
           "title": "ドキュメント",
           "href": "/docs"
-        },
-        {
-          "title": "読みもの",
-          "href": "/journal"
         }
       ],
       "pages": [
@@ -38,8 +34,8 @@
           "summary": "入力と方針から、一貫した計画を組み立てる。実行の前に、変更の内容を考えるためのプランニングエンジン。",
           "sections": [
             {
-              "title": "目的から、次の一歩へ。",
-              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "title": "入力・計画・レビューをつなぐ",
+              "text": "同じ入力から計画を組み立て、変更点を比較する。Constilloの設計を、計画と確認の流れから紹介します。",
               "links": [
                 {
                   "title": "同じ入力から同じ計画",
@@ -62,8 +58,8 @@
               ]
             },
             {
-              "title": "使い方をイメージする",
-              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "title": "計画を確認してから、実行基盤へ",
+              "text": "計画を作る処理と実行の許可は別の責務です。対象に合う基盤との接続方法と導入状況をご確認ください。",
               "links": [
                 {
                   "title": "活用シーンを見る",
@@ -232,8 +228,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "使う場面から、考える。",
-          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "title": "計画を比較し、レビューする",
+          "summary": "各場面から、Constilloの使い方と関連するガイドへ進めます。",
           "sections": [
             {
               "title": "同じ入力から同じ計画",
@@ -270,7 +266,7 @@
             }
           ],
           "kind": "page",
-          "label": "使う場面から、考える。",
+          "label": "計画を比較し、レビューする",
           "category": "",
           "status": "published"
         },
@@ -301,7 +297,7 @@
         },
         {
           "path": "/docs",
-          "title": "ガイドとドキュメント",
+          "title": "Constilloのガイド",
           "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
           "sections": [
             {
@@ -320,7 +316,7 @@
             }
           ],
           "kind": "page",
-          "label": "ガイドとドキュメント",
+          "label": "Constilloのガイド",
           "category": "",
           "status": "published"
         },
@@ -429,7 +425,11 @@
         }
       ],
       "resources": [],
-      "icon": "/brand/icon.png"
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "導入・ドキュメント",
+        "href": "/docs"
+      }
     },
     "en": {
       "brand": "Constillo",
@@ -453,10 +453,6 @@
         {
           "title": "Docs",
           "href": "/docs"
-        },
-        {
-          "title": "Journal",
-          "href": "/journal"
         }
       ],
       "pages": [
@@ -466,8 +462,8 @@
           "summary": "A planning engine that builds consistent plans from explicit inputs and policy, before execution begins.",
           "sections": [
             {
-              "title": "Find your next step.",
-              "text": "Explore capabilities and guides by the work you want to do.",
+              "title": "Connect inputs, plans and review",
+              "text": "Explore how Constillo builds plans from inputs and supports review of proposed changes.",
               "links": [
                 {
                   "title": "Repeatable planning",
@@ -490,8 +486,8 @@
               ]
             },
             {
-              "title": "Explore the possibilities",
-              "text": "Find a workflow and the tools that fit your use case.",
+              "title": "Review the plan before choosing execution",
+              "text": "Planning and permission to execute have separate responsibilities. Review integration boundaries and current availability.",
               "links": [
                 {
                   "title": "Explore use cases",
@@ -660,8 +656,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "Start with the work.",
-          "summary": "Explore approaches to organizing information and selecting tools.",
+          "title": "Compare and review plans",
+          "summary": "Explore Constillo through specific scenarios and related guides.",
           "sections": [
             {
               "title": "Repeatable planning",
@@ -698,7 +694,7 @@
             }
           ],
           "kind": "page",
-          "label": "Start with the work.",
+          "label": "Compare and review plans",
           "category": "",
           "status": "published"
         },
@@ -729,7 +725,7 @@
         },
         {
           "path": "/docs",
-          "title": "Guides and documentation",
+          "title": "Constillo guides",
           "summary": "Explore usage guides and design principles.",
           "sections": [
             {
@@ -748,7 +744,7 @@
             }
           ],
           "kind": "page",
-          "label": "Guides and documentation",
+          "label": "Constillo guides",
           "category": "",
           "status": "published"
         },
@@ -857,7 +853,11 @@
         }
       ],
       "resources": [],
-      "icon": "/brand/icon.png"
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "Setup & documentation",
+        "href": "/docs"
+      }
     }
   }
 }

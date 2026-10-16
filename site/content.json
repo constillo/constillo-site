@@ -272,26 +272,27 @@
         },
         {
           "path": "/download",
-          "title": "導入ガイド",
-          "summary": "まずは機能と使い方をご覧ください。",
+          "title": "配布状況",
+          "summary": "公開配布の準備状況と、開発者向けの技術資料をご案内します。",
           "sections": [
             {
-              "title": "提供状況",
-              "text": "一般向けダウンロードは準備中です。公開された配布版の案内を、このページに掲載します。",
+              "title": "公開配布の準備中",
+              "text": "現在、このサイトではインストーラーを配布していません。公開時には版、対応環境、取得先と検証方法を掲載します。",
+              "links": []
+            },
+            {
+              "title": "開発者向けの技術資料",
+              "text": "公開ソースの前提条件と検証方法は、プロジェクトのREADMEで確認できます。",
               "links": [
                 {
-                  "title": "製品の機能",
-                  "href": "/features"
-                },
-                {
-                  "title": "使い方",
-                  "href": "/docs"
+                  "title": "Constillo — README",
+                  "href": "https://github.com/constillo/constillo/blob/main/README.md"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "導入ガイド",
+          "label": "配布状況",
           "category": "",
           "status": "published"
         },
@@ -326,19 +327,24 @@
           "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
           "sections": [
             {
-              "title": "目的を選ぶ",
-              "text": "取り組む内容を機能や用途のページで確認します。",
+              "title": "利用できる配布物を確認する",
+              "text": "一般向けの配布物は準備中です。導入を始める前に公開状況と対応環境を確認してください。",
               "links": [
                 {
-                  "title": "機能を知る",
-                  "href": "/features"
+                  "title": "配布状況",
+                  "href": "/download"
                 }
               ]
             },
             {
-              "title": "利用条件を確認する",
-              "text": "導入するソフトウェアの対応環境、ライセンス、提供版を確認してください。",
-              "links": []
+              "title": "ソースを検証する",
+              "text": "開発者向けの導入条件、例、検証コマンドはREADMEを参照してください。計画の生成と実際の実行権限は分けて扱います。",
+              "links": [
+                {
+                  "title": "Constillo — README",
+                  "href": "https://github.com/constillo/constillo/blob/main/README.md"
+                }
+              ]
             }
           ],
           "kind": "page",
@@ -700,26 +706,27 @@
         },
         {
           "path": "/download",
-          "title": "Get started",
-          "summary": "Explore the product and its usage guides.",
+          "title": "Distribution status",
+          "summary": "Check public distribution status and technical information for developers.",
           "sections": [
             {
-              "title": "Availability",
-              "text": "Public downloads are being prepared. Released distributions will be listed here.",
+              "title": "Public downloads are being prepared",
+              "text": "This site does not currently distribute an installer. Released versions, supported environments, download locations and verification instructions will be listed here.",
+              "links": []
+            },
+            {
+              "title": "Technical information for developers",
+              "text": "The project README describes prerequisites and verification for the public source.",
               "links": [
                 {
-                  "title": "Product capabilities",
-                  "href": "/features"
-                },
-                {
-                  "title": "Usage guide",
-                  "href": "/docs"
+                  "title": "Constillo — README",
+                  "href": "https://github.com/constillo/constillo/blob/main/README.md"
                 }
               ]
             }
           ],
           "kind": "page",
-          "label": "Get started",
+          "label": "Distribution status",
           "category": "",
           "status": "published"
         },
@@ -754,19 +761,24 @@
           "summary": "A guide to capabilities, use cases and data boundaries.",
           "sections": [
             {
-              "title": "Choose a goal",
-              "text": "Explore the capability or use-case pages for the work you have in mind.",
+              "title": "Check distribution availability",
+              "text": "Public distributions are being prepared. Check availability and supported environments before installation.",
               "links": [
                 {
-                  "title": "Explore the engine",
-                  "href": "/features"
+                  "title": "Distribution status",
+                  "href": "/download"
                 }
               ]
             },
             {
-              "title": "Review usage conditions",
-              "text": "Check the supported environment, license and available release of the software you select.",
-              "links": []
+              "title": "Evaluate the source",
+              "text": "Refer to the README for developer prerequisites, examples and verification commands. Generating a plan is separate from authorization to execute it.",
+              "links": [
+                {
+                  "title": "Constillo — README",
+                  "href": "https://github.com/constillo/constillo/blob/main/README.md"
+                }
+              ]
             }
           ],
           "kind": "page",

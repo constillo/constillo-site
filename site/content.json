@@ -8,7 +8,7 @@
       "caption": "",
       "origin": "https://constillo.com",
       "locale": "ja",
-      "accent": "#6435c9",
+      "accent": "#6e3baa",
       "navigation": [
         {
           "title": "機能を知る",
@@ -87,7 +87,7 @@
               "text": "版を持つ入力と方針を使い、計画を再現・比較できる形にします。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "同じ入力から同じ計画",
                   "href": "/features/deterministic-planning",
                   "icon": "/brand/icons/flow.svg"
                 }
@@ -98,7 +98,7 @@
               "text": "実行する前に、タスクの関係と確認する内容を整理します。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "計画をレビューする",
                   "href": "/features/review",
                   "icon": "/brand/icons/search.svg"
                 }
@@ -109,7 +109,7 @@
               "text": "計画の生成と実行を分け、アプリケーション側で承認・実行の仕組みと組み合わせます。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "実行基盤を選ぶ",
                   "href": "/features/execution-boundary",
                   "icon": "/brand/icons/layers.svg"
                 }
@@ -442,7 +442,7 @@
       "caption": "",
       "origin": "https://constillo.com",
       "locale": "en",
-      "accent": "#6435c9",
+      "accent": "#6e3baa",
       "navigation": [
         {
           "title": "Explore the engine",

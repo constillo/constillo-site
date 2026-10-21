@@ -1,0 +1,100 @@
+{
+  "ja": {
+    "category": "比較できる計画をつくる",
+    "primary": {
+      "href": "/use-cases",
+      "title": "利用シーンを見る"
+    },
+    "secondary": {
+      "href": "/features",
+      "title": "計画の作り方を知る"
+    },
+    "pathsTitle": "何をお探しですか？",
+    "paths": [
+      {
+        "href": "/features/deterministic-planning",
+        "title": "計画を組み立てる",
+        "summary": "入力と計画の対応を知る"
+      },
+      {
+        "href": "/features/review",
+        "title": "計画を比較・確認する",
+        "summary": "差分と判断する点を整理"
+      },
+      {
+        "href": "/download",
+        "title": "提供状況を確認する",
+        "summary": "配布先と対応環境へ"
+      }
+    ],
+    "preview": {
+      "kind": "plan",
+      "label": "使い方のイメージ",
+      "title": "進める前に、計画を比べる。",
+      "rows": [
+        {
+          "label": "入力と制約",
+          "detail": "達成したいことを揃える"
+        },
+        {
+          "label": "計画の比較",
+          "detail": "手順と差分を確かめる"
+        },
+        {
+          "label": "実行方法の選択",
+          "detail": "確認した計画を次の工程へ"
+        }
+      ],
+      "outcome": "計画と実行を分けて考える。"
+    }
+  },
+  "en": {
+    "category": "Build plans you can compare",
+    "primary": {
+      "href": "/use-cases",
+      "title": "Explore use cases"
+    },
+    "secondary": {
+      "href": "/features",
+      "title": "Explore planning"
+    },
+    "pathsTitle": "What brings you here?",
+    "paths": [
+      {
+        "href": "/features/deterministic-planning",
+        "title": "Build a plan",
+        "summary": "Understand inputs and their plans"
+      },
+      {
+        "href": "/features/review",
+        "title": "Compare plans",
+        "summary": "Review differences and decisions"
+      },
+      {
+        "href": "/download",
+        "title": "Check availability",
+        "summary": "Find distribution and platform information"
+      }
+    ],
+    "preview": {
+      "kind": "plan",
+      "label": "Workflow illustration",
+      "title": "Compare the plan before you proceed.",
+      "rows": [
+        {
+          "label": "Inputs & constraints",
+          "detail": "Make the goal and constraints explicit"
+        },
+        {
+          "label": "Compare plans",
+          "detail": "Review steps and differences"
+        },
+        {
+          "label": "Choose execution",
+          "detail": "Take a reviewed plan to the next stage"
+        }
+      ],
+      "outcome": "Keep planning and execution distinct."
+    }
+  }
+}

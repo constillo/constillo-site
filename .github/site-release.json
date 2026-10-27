@@ -16,6 +16,7 @@
       "environment": "site-production-constillo",
       "siteConfig": "sites/constillo/site.config.json",
       "appDirectory": ".",
+      "documentDirectory": "site",
       "assetDirectory": ".output/constillo/public",
       "buildKind": "organization",
       "zone": "ab49680985a75d3de208d825fa8f91e4"

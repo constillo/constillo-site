@@ -116,11 +116,11 @@
       },
       "privacy": {
         "label": "プライバシー",
-        "summary": "公開サイトはWorkflow実行履歴、顧客データ、資格情報を収集しません。Workflow入力は目的に必要な最小情報と参照に限定し、保持方針を実行環境で定めます。"
+        "summary": "お問い合わせ・情報提供には株式会社HATの共通プライバシーポリシーを適用します。"
       },
       "contact": {
         "label": "Constilloに関する連絡",
-        "summary": "契約や検証の問題は、constillo.comで確認済みとして案内される窓口へSchema版、最小化した入力例、期待結果だけを送ってください。秘密値を含めないでください。"
+        "summary": "お問い合わせフォームをご利用ください。返信先は任意です。秘密情報は送らないでください。"
       }
     },
     "en": {
@@ -226,11 +226,11 @@
       },
       "privacy": {
         "label": "Privacy",
-        "summary": "The public site collects no workflow history, customer data, or credentials. Workflow input should contain only necessary information and references, with retention defined in the execution environment."
+        "summary": "The common HAT Inc. privacy policy applies to inquiries and reports."
       },
       "contact": {
         "label": "Constillo contact",
-        "summary": "Report contract or validation problems through a verified channel identified on constillo.com, sending only the schema version, a minimized input example, and expected result. Exclude secrets."
+        "summary": "Use the contact form. Reply email is optional. Do not send confidential information."
       }
     }
   }

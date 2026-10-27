@@ -1,0 +1,101 @@
+{
+  "siteId": "constillo",
+  "origin": "https://constillo.com",
+  "defaultLocale": "en",
+  "locales": {
+    "ja": {
+      "brand": "Constillo",
+      "caption": "",
+      "origin": "https://constillo.com",
+      "locale": "ja",
+      "accent": "#6e3baa",
+      "navigation": [
+        {
+          "title": "機能を知る",
+          "href": "/features"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "導入",
+          "href": "/download"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        }
+      ],
+      "resources": [],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "導入・ドキュメント",
+        "href": "/docs"
+      },
+      "pageOrder": [
+        "/",
+        "/features",
+        "/features/deterministic-planning",
+        "/features/review",
+        "/features/execution-boundary",
+        "/use-cases",
+        "/download",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap"
+      ]
+    },
+    "en": {
+      "brand": "Constillo",
+      "caption": "",
+      "origin": "https://constillo.com",
+      "locale": "en",
+      "accent": "#6e3baa",
+      "navigation": [
+        {
+          "title": "Explore the engine",
+          "href": "/features"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "Get started",
+          "href": "/download"
+        },
+        {
+          "title": "Docs",
+          "href": "/docs"
+        }
+      ],
+      "resources": [],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "Setup & documentation",
+        "href": "/docs"
+      },
+      "pageOrder": [
+        "/",
+        "/features",
+        "/features/deterministic-planning",
+        "/features/review",
+        "/features/execution-boundary",
+        "/use-cases",
+        "/download",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap"
+      ]
+    }
+  }
+}

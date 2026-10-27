@@ -1,0 +1,31 @@
+---
+path: "/use-cases"
+title: "計画を比較し、レビューする"
+summary: "各場面から、Constilloの使い方と関連するガイドへ進めます。"
+kind: "page"
+label: "計画を比較し、レビューする"
+category: ""
+status: "published"
+---
+
+## 同じ入力から同じ計画
+
+版を持つ入力と方針を使い、計画を再現・比較できる形にします。
+
+::document-link{title="機能を見る" href="/features/deterministic-planning" icon="/brand/icons/flow.svg"}
+::
+
+## 計画をレビューする
+
+実行する前に、タスクの関係と確認する内容を整理します。
+
+::document-link{title="機能を見る" href="/features/review" icon="/brand/icons/search.svg"}
+::
+
+## 実行基盤を選ぶ
+
+計画の生成と実行を分け、アプリケーション側で承認・実行の仕組みと組み合わせます。
+
+::document-link{title="機能を見る" href="/features/execution-boundary" icon="/brand/icons/layers.svg"}
+::
+
